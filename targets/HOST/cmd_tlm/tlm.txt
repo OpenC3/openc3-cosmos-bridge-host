@@ -1,0 +1,10 @@
+TELEMETRY HOST RESPONSE BIG_ENDIAN "Command response"
+  ACCESSOR JsonAccessor
+  # Template is not required for telemetry, but is useful for simulation
+  TEMPLATE '{"id":1, "status":0, "output":"command output" }'
+  APPEND_ID_ITEM ID_ITEM 32 INT 1 "ID item"
+    KEY $.id
+  APPEND_ITEM STATUS 32 UINT "Command status"
+    KEY $.status
+  APPEND_ITEM OUTPUT 0 STRING "Command output"
+    KEY $.output

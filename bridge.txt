@@ -1,0 +1,12 @@
+# Port to listen for connections from COSMOS - Plugin must match
+VARIABLE router_port 2950
+
+# Port to listen on for connections from COSMOS. Defaults to localhost for security. Will need to be opened
+# if COSMOS is on another machine.
+VARIABLE router_listen_address 127.0.0.1
+
+INTERFACE HOST_INT host_interface.rb
+
+ROUTER HOST_ROUTER tcpip_server_interface.rb <%= router_port %> <%= router_port %> 10.0 nil BURST
+  ROUTE HOST_INT
+  OPTION LISTEN_ADDRESS <%= router_listen_address %>

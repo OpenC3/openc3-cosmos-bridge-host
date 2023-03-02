@@ -1,0 +1,7 @@
+COMMAND HOST EXEC BIG_ENDIAN "Send command to the host"
+  ACCESSOR JsonAccessor
+  TEMPLATE '{"id":1, "command":"whoami" }'
+  APPEND_ID_PARAMETER ID_ITEM 32 INT 1 1 1 "Int Item"
+    KEY $.id
+  APPEND_PARAMETER COMMAND 0 STRING "whoami" "The command to send"
+    KEY $.command

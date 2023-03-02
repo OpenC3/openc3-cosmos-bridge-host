@@ -1,0 +1,11 @@
+# Set VARIABLEs here to allow variation in your plugin
+# See https://openc3.com/docs/v5/plugins for more information
+VARIABLE host_target_name HOST
+# Port to listen for connections from COSMOS - Bridge must match
+VARIABLE router_port 2950
+
+# Modify this according to your actual target connection
+# See https://openc3.com/docs/v5/interfaces for more information
+TARGET HOST <%= host_target_name %>
+INTERFACE <%= host_target_name %>_INT tcpip_client_interface.rb host.docker.internal <%= router_port %> <%= router_port %> 10.0 nil BURST
+  MAP_TARGET <%= host_target_name %>
