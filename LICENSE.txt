@@ -1,13 +1,13 @@
-The OpenC3 COSMOS software program is a derived work based on the 
-Ball Aerospace COSMOS software licensed under the
-GNU Affero General Public License, version 3 with the Addendums listed below.
+The OpenC3 COSMOS Dual License -- OpenC3 Only
 
-Commercial licensing is also available for purchase from OpenC3, Inc.
+The OpenC3 COSMOS software program is licensed under the
+GNU Affero General Public License, version 3 with the Addendums listed below or
+via Commercial licensing if purchased from OpenC3, Inc.
 
 Please note that the verbiage of the AGPL below are copyrighted
 by the Free Software Foundation, but the instance of code to which the
 licenses refer (the OpenC3 COSMOS software) is copyrighted by
-OpenC3 Inc. and/or Ball Aerospace and Technologies Corp as marked in each file.
+OpenC3 Inc. as marked in each file.
 
 Also please note that the only valid versions of the AGPL
 that pertain to OpenC3 COSMOS are the particular versions of
@@ -26,43 +26,9 @@ Public License, version 3.
 2.	Modified applications and source files must be clearly marked as
     "modified" with the modification author and company indicated
     immediately following the copyright and legal notices.
-3.	OpenC3, and OpenC3 COSMOS are trademarks of OpenC3, Inc. and may be used for publicity purposes 
-    only in a manner that constitutes "fair use" under applicable trademark 
+3.	OpenC3, and OpenC3 COSMOS are trademarks of OpenC3, Inc. and may be used for publicity purposes
+    only in a manner that constitutes "fair use" under applicable trademark
     law, except with the express, written permission of OpenC3 Inc.
-
------------------------------------------------------------------------------
-
-Original Ball Aerospace COSMOS 5 License Text:
-
-The Ball Aerospace COSMOS software program is licensed under the
-GNU Affero General Public License, version 3 with the Addendums listed below.
-
-Please note that the verbiage of the AGPL below are copyrighted
-by the Free Software Foundation, but the instance of code to which the
-licenses refer (the Ball Aerospace COSMOS software) is copyrighted by
-Ball Aerospace & Technologies Corp.
-
-Also please note that the only valid versions of the AGPL
-that pertain to Ball Aerospace COSMOS are the particular versions of
-the license reproduced below (i.e., versions 3, rather than any other
-versions of the AGPL), unless explicitly otherwise stated.
-
-                BALL AGPL, version 3 LICENSE ADDENDUMS
-            Ball Aerospace COSMOS Version 5, 8 January 2020
-
-The following addendums are made under section 7 of the GNU Affero General
-Public License, version 3.
-
-1.	The Ball Aerospace & Technologies Corp. copyright and legal notices
-    on all user interfaces and source files must be preserved or
-    duplicated on any derivative works.
-2.	Modified applications and source files must be clearly marked as
-    "modified" with the modification author and company indicated
-    immediately following the copyright and legal notices.
-3.	Ball Aerospace COSMOS, Ball, and Ball Aerospace are trademarks of
-    Ball Corporation and may be used for publicity purposes only in a
-    manner that constitutes "fair use" under applicable trademark law,
-    except with the express, written permission of Ball Corporation.
 
 The AGPL license text follows:
 

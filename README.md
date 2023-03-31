@@ -1,4 +1,4 @@
-# OpenC3 COSMOS Host Plugin
+# OpenC3 COSMOS Bridge for Host Command Execution
 
 WARNING: This allows COSMOS to execute arbitrary commands on the host system on which it is running!
 
@@ -25,7 +25,7 @@ WARNING: This allows COSMOS to execute arbitrary commands on the host system on 
    - export PATH="/opt/homebrew/lib/ruby/gems/3.1.0/bin:$PATH"
 1. Install openc3 gem
    - gem install openc3
-1. Install openc3-cosmos-host gem (substitute X.Y.Z with the actual version number)
-   - gem install openc3-cosmos-host-X.Y.Z.gem
+1. Install openc3-cosmos-bridge-host gem (substitute X.Y.Z with the actual version number)
+   - gem install openc3-cosmos-bridge-host-X.Y.Z.gem
 1. Run the local bridge
-   - openc3cli bridgegem openc3-cosmos-host
+   - openc3cli bridgegem openc3-cosmos-bridge-host

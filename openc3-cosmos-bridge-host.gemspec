@@ -2,12 +2,12 @@
 
 # Create the overall gemspec
 spec = Gem::Specification.new do |s|
-  s.name = 'openc3-cosmos-host'
-  s.summary = 'OpenC3 openc3-cosmos-host plugin'
+  s.name = 'openc3-cosmos-bridge-host'
+  s.summary = 'OpenC3 openc3-cosmos-bridge-host plugin'
   s.description = <<-EOF
     Allows COSMOS to execute arbitrary commands on the host
   EOF
-  s.license = 'Nonstandard'
+  s.licenses = ['AGPL-3.0-only', 'Nonstandard']
   s.authors = ['Jason Thomas']
   s.email = ['support@openc3.com']
   s.homepage = 'https://github.com/OpenC3/openc3'
