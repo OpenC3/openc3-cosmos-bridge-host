@@ -8,8 +8,8 @@ spec = Gem::Specification.new do |s|
     Allows COSMOS to execute arbitrary commands on the host
   EOF
   s.licenses = ['AGPL-3.0-only', 'Nonstandard']
-  s.authors = ['Jason Thomas']
-  s.email = ['support@openc3.com']
+  s.authors = ['OpenC3, Inc.']
+  s.email = ['plugins@openc3.com']
   s.homepage = 'https://github.com/OpenC3/openc3'
   s.platform = Gem::Platform::RUBY
 
